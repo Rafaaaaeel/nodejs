@@ -12,4 +12,6 @@ server.listen(port, host, ()=>{
     console.log(`Server running at http://${host}:${port}`)
 
     console.log("test")
+
+    var name = "Rafael"
 })
