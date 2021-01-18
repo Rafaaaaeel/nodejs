@@ -1,0 +1,10 @@
+console.log(`nomde: `, __filename )
+console.log(`diretorio: `, __dirname)
+console.log(`paramentros ded execução: `,process.argv)
+console.log(`ambiente do serviço : `, process.platform )
+
+//console.log('variaveis', process.env)
+console.log('variaveis', process.env.OS)
+console.log('Usuario', process.env.USERNAME)
+console.log('variaveis', process.env.COMPUTERNAME)
+console.log('Diretorio aonde foi invocado', process.cwd())
