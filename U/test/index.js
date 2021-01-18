@@ -12,5 +12,5 @@ function make(dir){
 		})
 	})
 }
-make(assets);
 
+make(assets)

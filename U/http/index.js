@@ -1,5 +1,5 @@
 const http = require('http');
-const  hostname = '127.0.0.1'
+const hostname = '127.0.0.1'
 const port = 3000;
 const url = `http://${hostname}:${port}/`
 
@@ -15,3 +15,5 @@ server.listen(port, hostname, ()=>{
 const open = (process.platform == 'darwin'? 'open':process.platform == 'win32'?'start':'xdg-open')
 
 require('child_process').exec(open + ' ' + url)
+
+
