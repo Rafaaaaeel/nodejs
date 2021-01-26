@@ -10,6 +10,7 @@ function sum(x){
 }
 
 //callback function
+
 async function main(){
     try{
         const result = await sum('2');

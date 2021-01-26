@@ -1,0 +1,24 @@
+### get admin
+GET http://localhost:3000/admin
+### get admin using id
+GET http://localhost:3000/admin/250
+### acces usingp port
+POST http://localhost:3000/admin
+Content-Type: application/json
+
+{
+    "login":"rafael356ras",
+    "senha":"wagner46"
+}
+### using PATH
+PATCH http://localhost:3000/admin/250
+###
+## using put
+PUT  http://localhost:3000/admin/250
+###
+## using delete
+DELETE   http://localhost:3000/admin/250
+### users
+GET http://localhost:3000/user
+### get user using id
+GET http://localhost:3000/user/250
