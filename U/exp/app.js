@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser')
 //Create a app using the express
 const app = express()
 
-app.use('/static',express.static('public'))
+app.use('/static',express.static('assets'))
 
 app.use(express.json())
 
